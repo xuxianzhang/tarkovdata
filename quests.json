@@ -531,7 +531,7 @@
       {
         "type": "kill",
         "target": "PMCs",
-        "number": 12,
+        "number": 8,
         "location": -1,
         "with": ["Grenade"],
         "id": 22
@@ -1247,7 +1247,7 @@
   {
     "id": 28,
     "require": {
-      "level": 10,
+      "level": 20,
       "quests": [23]
     },
     "giver": 1,
@@ -3887,7 +3887,7 @@
   {
     "id": 81,
     "require": {
-      "level": 14,
+      "level": 40,
       "quests": [79]
     },
     "giver": 3,
@@ -6907,7 +6907,7 @@
       },
       {
         "type": "find",
-        "target": "5751487e245977207e26a315",
+        "target": "656df4fec921ad01000481a2",
         "number": 2,
         "location": -1,
         "id": 245
@@ -7074,7 +7074,7 @@
     "id": 139,
     "require": {
       "level": 10,
-      "quests": [138]
+      "quests": [137]
     },
     "giver": 6,
     "turnin": 6,
@@ -9915,7 +9915,7 @@
     "id": 199,
     "require": {
       "level": 11,
-      "quests": [43, 179]
+      "quests": [[43, 179]]
     },
     "giver": 0,
     "turnin": 0,
@@ -9950,7 +9950,7 @@
     "id": 200,
     "require": {
       "level": 11,
-      "quests": [43, 180]
+      "quests": [[43, 180]]
     },
     "giver": 1,
     "turnin": 1,
@@ -10006,7 +10006,7 @@
     "id": 201,
     "require": {
       "level": 11,
-      "quests": [179, 180]
+      "quests": [[179, 180]]
     },
     "giver": 2,
     "turnin": 2,
@@ -10793,7 +10793,7 @@
       {
         "type": "kill",
         "target": "PMCs",
-        "number": 15,
+        "number": 12,
         "location": 1,
         "with": ["in the scav base"],
         "id": 438
@@ -10801,7 +10801,7 @@
       {
         "type": "kill",
         "target": "PMCs",
-        "number": 15,
+        "number": 12,
         "location": 2,
         "with": ["in the scav base"],
         "id": 439
@@ -10809,7 +10809,7 @@
       {
         "type": "kill",
         "target": "PMCs",
-        "number": 15,
+        "number": 12,
         "location": 3,
         "with": ["in the pier"],
         "id": 440
@@ -10917,7 +10917,7 @@
     },
     "wiki": "https://escapefromtarkov.fandom.com/wiki/Swift_One",
     "exp": 107000,
-    "nokappa": false,
+    "nokappa": true,
     "unlocks": [],
     "reputation": [],
     "objectives": [
@@ -11264,6 +11264,13 @@
         "number": 3,
         "location": -1,
         "id": 469
+      },
+      {
+        "type": "find",
+        "target": "62a09f32621468534a797acb",
+        "number": 20,
+        "location": -1,
+        "id": 536
       }
     ],
     "gameId": "60e71dc67fcf9c556f325056"
